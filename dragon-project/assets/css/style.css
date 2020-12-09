@@ -1,3 +1,95 @@
-header{
-    background-color: lightblue;
+body{
+    background-color: #557cbf;
+    text-align:center;
+}
+
+img{
+  max-width:100%;
+  height:auto;
+}
+
+body{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  margin:0;
+}
+
+header.primary{
+    background-color: #0c3883;
+}
+
+header.primary nav ul{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding: 40px 40px;
+}
+
+header.primary nav ul li{
+  list-style-type:none;
+  padding:10px;
+}
+
+header.primary nav{
+  width:80vw;
+  margin: 20px auto;
+  max-width:900px;
+}
+
+header.primary nav ul{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  padding:0;
+}
+
+header.primary nav ul li a:link, header.primary nav ul li a:visited{
+  color:#ffffff;
+  text-decoration:none;
+  background-color:#000000;
+  background-color:rgba(0,0,0,.4);
+  padding: 8px 16px;
+  border-radius:20px;
+  transition:.5s;
+}
+
+
+header.primary nav ul li a:hover, header.primary nav ul li a:active{
+  background-color:rgba(0,0,0,.8);
+}
+
+#articles{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    border-bottom:1px solid #c0c0c0;
+    padding-bottom:2.6rem;
+}
+
+
+aside[role="complementary"]{
+  background-color:#072A67;
+  color:#ffffff;
+  padding:2.5rem;
+}
+
+aside .container{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+}
+
+aside article.widget{
+  width: 40%;
+}
+
+aside article footer{
+  display:none;
+}
+
+footer#colophon{
+    background-color: #0c3883;
+    padding: 5px;
+    margin:0;
+    color: #FFFFFF;
+    text-transform: uppercase;
 }
